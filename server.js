@@ -11,19 +11,19 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/index.html'));
 });
-app.get('/1999', function(req, res){
+app.get('/1999.html', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/1999.html'));
 });
-app.get('/2004', function(req, res){
+app.get('/2004.html', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/2004.html'));
 });
-app.get('/2007', function(req, res){
+app.get('/2007.html', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/2007.html'));
 });
-app.get('/2011', function(req, res){
+app.get('/2011.html', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/2011.html'));
 });
-app.get('/2013', function(req, res){
+app.get('/2013.html', function(req, res){
   res.sendFile(path.join(__dirname, 'movies/2013.html'));
 });
 app.get('*', function(req, res){
