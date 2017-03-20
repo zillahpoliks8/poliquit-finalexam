@@ -11,7 +11,7 @@ setTimeout(function(){
 
 function x(){
 $.ajax({
-	url: "http://www.omdbapi.com/?i=tt0373960"
+	url: "https://www.omdbapi.com/?i=tt0373960"
 }).done(function(res){
 	console.log(res);
 	let html = `
